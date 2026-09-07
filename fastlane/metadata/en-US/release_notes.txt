@@ -1,0 +1,3 @@
+Version 1.0 is the first release of Margent.
+
+Set down a book on the Shelf with a title and page count. Write a slip at this page and tap Pin this slip so the line and the current page are stored together. Search your slips on Quotes and mark each one Reread or Not yet. Mark this book gone to hollow the spine and freeze the sheaf. Dashboard counts gone sheaves and reread slips. Settings lets you re-run onboarding, reset all data, and Contact Margent. Books, slips, and reread verdicts stay on this device.

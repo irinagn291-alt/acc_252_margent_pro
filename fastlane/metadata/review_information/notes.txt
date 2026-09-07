@@ -1,0 +1,15 @@
+The Info.plist includes NSCameraUsageDescription with the exact string "This app does not use the camera." The app never requests camera access and never shows a camera permission dialog. No photo library, microphone, location, or tracking usage strings are present.
+
+There is no login, no in-app purchase, no user-generated content shared with others, no account deletion flow, and no App Tracking Transparency prompt.
+
+Margent is a commonplace book for readers who write a slip at the page they are reading. It is for people who lose marginalia in highlights they never reopen. A volume starts Held; marking it gone hollows the spine and freezes the sheaf so slips stay searchable on this device.
+
+No credentials or demo account are needed. On a cold launch the reviewer sees four onboarding pages titled "Set down the book you are holding", "Write a slip at this page", "The book can leave. The slips stay.", and "Reread is a verdict." Tap Next through them or Skip, then Open the shelf. On an empty Shelf tap Set down a book, enter a Title and Page count, and tap Set down on the shelf. Tap Write a slip or a held spine to open the margin. Set the page with the slider, type a line, and tap Pin this slip. Tap Mark this book gone, confirm on Hollow spine, then reread the frozen sheaf and toggle Reread or Not yet. Open the Quotes tab to Search your slips and set the same verdict. Open the Dashboard tab for gone sheaves, reread slips, hollow spines, and latest slips. Tap the gear for Settings, including Re-run onboarding, Reset all data, and Contact Margent.
+
+The only user-initiated network action is Contact Margent, which opens https://margent-sheaf.pro/contact-us. The product has no remote catalog and does not fetch slips from the network. Books, slips, reread verdicts, and onboarding state stay on this device in UserDefaults and Application Support.
+
+Behaviour does not differ by region. Page numbers and counts use the device locale formatter. Day stamps use the device calendar.
+
+No licence or regulated-industry paperwork applies. The app stores personal reading notes and is not a medical, legal, or financial product.
+
+The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.

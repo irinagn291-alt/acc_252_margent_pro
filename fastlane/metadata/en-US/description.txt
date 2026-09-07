@@ -1,0 +1,11 @@
+Margent is a commonplace book for readers who lose lines in highlights they never reopen. You set down a book on the Shelf, write a slip at the page you are on, and keep the sheaf when the volume is gone.
+
+• Set down a book with a title and page count. It starts Held at page 1.
+• Open a spine and write a slip at this page. Tap Pin this slip to store the line and the current page together.
+• Move the page and write more slips on that volume.
+• Open Quotes to Search your slips and mark each one Reread or Not yet. Search finds only your words.
+• Mark this book gone when you returned it, sold it, gave it, or lost it. The spine hollows. The sheaf freezes so you can still reread.
+• Dashboard counts gone sheaves and reread slips and lists hollow spines.
+• Settings shows held spines, gone sheaves, slips, and reread slips on this device. Re-run onboarding, reset all data, or Contact Margent.
+
+There is no store login and no catalog. Books, slips, and reread verdicts stay on this iPhone or iPad.

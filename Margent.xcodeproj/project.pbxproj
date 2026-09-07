@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030141F2D20F7B83458C1921 /* StudioFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA947FABCDC505A358C6B90 /* StudioFace.swift */; };
+		03362659983D6203204F9A45 /* MargentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9B5A2A387C1914E135484 /* MargentApp.swift */; };
+		186478628B4E2E99DCCA8059 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B74791FAF1A2547726DBAF /* ReviewLaunch.swift */; };
+		1E10ED00A7764C9CFF9C4E64 /* OnboardingPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4CA092FC253D27323D1B99 /* OnboardingPane.swift */; };
+		234BF3F25925415C204E9E04 /* QuotesPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3318481474AF6F630C1F2827 /* QuotesPane.swift */; };
+		261E117E4AAB93B001F9A883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1622277D1F57D862104048B7 /* Assets.xcassets */; };
+		28A5E095DF63B3AD3DFF4A18 /* Hollow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A332504B49EB3A459C117E9 /* Hollow.swift */; };
+		2AC3AAAFF1936D15BF3B84CD /* SpineChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398104E727A7CF74F0BC4099 /* SpineChrome.swift */; };
+		390C6CDF75E91B250BB5AB1C /* SetDownSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAFA61963ABC0B29FBDED1 /* SetDownSheet.swift */; };
+		53F2837636E48D24A82D3FFB /* Florilegium.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C5299D7C77AD8EC7468AA5 /* Florilegium.swift */; };
+		59685E9C77C440380F4444B1 /* DashboardPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C37AE20EA24517C13126E8 /* DashboardPane.swift */; };
+		5D3264A90A7AFB05EC9825F2 /* SheafWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186667611116C0A4995218C2 /* SheafWatch.swift */; };
+		5F669D2B7D45677910468434 /* ContactHopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F59E0BA0C64E635F7D2CC4 /* ContactHopTests.swift */; };
+		6315508121B2BF7DBBC9D8C2 /* VolumeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8097CC8609445445D2AAABE5 /* VolumeTests.swift */; };
+		667D7199865D48D06459B35C /* SheafDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D47571007F0FF7486C126F /* SheafDocument.swift */; };
+		7E4AF039B69CEC1DF51F815A /* HollowPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FA26BBA1C64604F94B4D6 /* HollowPane.swift */; };
+		83927B7A5A8E318478F4658E /* ReviewLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DA50E542DB9CB0A054F86A /* ReviewLaunchTests.swift */; };
+		84E82C132F7BEFF3E9D27ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9F5373802E7141470782AA /* AppDelegate.swift */; };
+		88C60F9436AD3388D04BD94E /* VolumeFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4E17ED043CD39B7103A3F6 /* VolumeFault.swift */; };
+		8B02D0914ECAEB911FE0A9C4 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE00CB049FF9583546A3A7 /* APIConfig.swift */; };
+		8B784EF416990A953DA586F6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 51919CACC7EBCDDAD7B0A332 /* Alamofire */; };
+		8DBB75A6513B7C4828F733FA /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832261B919A075B90C1E652C /* Volume.swift */; };
+		9334AD786E24CB6F19B1D4EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F5C1A03D6377124ECDD96C /* ContentView.swift */; };
+		9634551CBC85403A80696817 /* SheafStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93681604766C00281A4699 /* SheafStore.swift */; };
+		9FC35A6E284F6A52E38B5836 /* Slip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E7EA31B2DC087E817231F /* Slip.swift */; };
+		AA6EB5216184F136DE095D82 /* StudioInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B958E14E5D3D0172E9117 /* StudioInk.swift */; };
+		B83DC50905AD25C01B9621CA /* ContactHop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D779AEDD0288A43B1291AC /* ContactHop.swift */; };
+		BD4B7EF9680D3F8DFE143EEA /* MarginSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429BD163233DA8C92C2C6FEE /* MarginSheet.swift */; };
+		BF266EEC416BF4F2420E1331 /* DayStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA9A50D62BE5BDFFB08F9A /* DayStamp.swift */; };
+		CB74E2E9F730A92EB6F9B92C /* ShelfPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C515B61B4BA407DCC73E644C /* ShelfPane.swift */; };
+		D58E96E7039248E135196E61 /* Sheaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F9EE43FCA593ABB2D02C4A /* Sheaf.swift */; };
+		D6211AB4320A483F5ED8218C /* MargentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA442D569C0EE6B763B943FF /* MargentTests.swift */; };
+		D7ADDB85998B176441C4E1AC /* ClaySpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7087A73761891CCE3C06BE /* ClaySpine.swift */; };
+		DA5F4A0269966C618BB7C64D /* SheafSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E027F7FFBA182AF6CFA889 /* SheafSeed.swift */; };
+		E090B34719247ABD57ACA3D7 /* SettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F086B7B275003A41605A0E1 /* SettingsPane.swift */; };
+		E97B61F056BF30F6A271E0EB /* SheafWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6D24F016277ACF8E8D9676 /* SheafWatchTests.swift */; };
+		F148FBC7BBF68B659312726B /* Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB7851F8AE1E6FF6A555951 /* Spine.swift */; };
+		FF3B5E66F2C07389CFBDC3BE /* SheafStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05556594EB33AFC7EEE062A4 /* SheafStoreTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		998BB2ED9499BFD549E92BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C01388EEC3C51B5E579268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6294CDFEDC4BAA026B55E798;
+			remoteInfo = Margent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05556594EB33AFC7EEE062A4 /* SheafStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheafStoreTests.swift; sourceTree = "<group>"; };
+		1622277D1F57D862104048B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179E7EA31B2DC087E817231F /* Slip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slip.swift; sourceTree = "<group>"; };
+		186667611116C0A4995218C2 /* SheafWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheafWatch.swift; sourceTree = "<group>"; };
+		1B6D24F016277ACF8E8D9676 /* SheafWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheafWatchTests.swift; sourceTree = "<group>"; };
+		1C7087A73761891CCE3C06BE /* ClaySpine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaySpine.swift; sourceTree = "<group>"; };
+		21DA50E542DB9CB0A054F86A /* ReviewLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunchTests.swift; sourceTree = "<group>"; };
+		29F9EE43FCA593ABB2D02C4A /* Sheaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheaf.swift; sourceTree = "<group>"; };
+		32E02E9AB31B977010CC2C10 /* Margent.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Margent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3318481474AF6F630C1F2827 /* QuotesPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesPane.swift; sourceTree = "<group>"; };
+		37C37AE20EA24517C13126E8 /* DashboardPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPane.swift; sourceTree = "<group>"; };
+		398104E727A7CF74F0BC4099 /* SpineChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpineChrome.swift; sourceTree = "<group>"; };
+		429BD163233DA8C92C2C6FEE /* MarginSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginSheet.swift; sourceTree = "<group>"; };
+		4ACE00CB049FF9583546A3A7 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		5A4120B89337117BB8D3FDB4 /* MargentTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MargentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F086B7B275003A41605A0E1 /* SettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPane.swift; sourceTree = "<group>"; };
+		5F4E17ED043CD39B7103A3F6 /* VolumeFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeFault.swift; sourceTree = "<group>"; };
+		68D779AEDD0288A43B1291AC /* ContactHop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHop.swift; sourceTree = "<group>"; };
+		69F59E0BA0C64E635F7D2CC4 /* ContactHopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHopTests.swift; sourceTree = "<group>"; };
+		6C9F5373802E7141470782AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73B74791FAF1A2547726DBAF /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		7A332504B49EB3A459C117E9 /* Hollow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hollow.swift; sourceTree = "<group>"; };
+		8097CC8609445445D2AAABE5 /* VolumeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeTests.swift; sourceTree = "<group>"; };
+		832261B919A075B90C1E652C /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		8E93681604766C00281A4699 /* SheafStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheafStore.swift; sourceTree = "<group>"; };
+		93E027F7FFBA182AF6CFA889 /* SheafSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheafSeed.swift; sourceTree = "<group>"; };
+		9EB7851F8AE1E6FF6A555951 /* Spine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spine.swift; sourceTree = "<group>"; };
+		9ED9B5A2A387C1914E135484 /* MargentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargentApp.swift; sourceTree = "<group>"; };
+		AEA947FABCDC505A358C6B90 /* StudioFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioFace.swift; sourceTree = "<group>"; };
+		BC4CA092FC253D27323D1B99 /* OnboardingPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPane.swift; sourceTree = "<group>"; };
+		C0D47571007F0FF7486C126F /* SheafDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheafDocument.swift; sourceTree = "<group>"; };
+		C515B61B4BA407DCC73E644C /* ShelfPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfPane.swift; sourceTree = "<group>"; };
+		D46FA26BBA1C64604F94B4D6 /* HollowPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowPane.swift; sourceTree = "<group>"; };
+		D7C5299D7C77AD8EC7468AA5 /* Florilegium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Florilegium.swift; sourceTree = "<group>"; };
+		DA442D569C0EE6B763B943FF /* MargentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargentTests.swift; sourceTree = "<group>"; };
+		E0FA9A50D62BE5BDFFB08F9A /* DayStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStamp.swift; sourceTree = "<group>"; };
+		E82B958E14E5D3D0172E9117 /* StudioInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioInk.swift; sourceTree = "<group>"; };
+		F5BAFA61963ABC0B29FBDED1 /* SetDownSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDownSheet.swift; sourceTree = "<group>"; };
+		F8F5C1A03D6377124ECDD96C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC75F765211F7D2BE49D9905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B784EF416990A953DA586F6 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3080CEF027EDB35FA94795DA /* Spine */ = {
+			isa = PBXGroup;
+			children = (
+				1C7087A73761891CCE3C06BE /* ClaySpine.swift */,
+				BC4CA092FC253D27323D1B99 /* OnboardingPane.swift */,
+				73B74791FAF1A2547726DBAF /* ReviewLaunch.swift */,
+				93E027F7FFBA182AF6CFA889 /* SheafSeed.swift */,
+				C515B61B4BA407DCC73E644C /* ShelfPane.swift */,
+				9EB7851F8AE1E6FF6A555951 /* Spine.swift */,
+				398104E727A7CF74F0BC4099 /* SpineChrome.swift */,
+				AEA947FABCDC505A358C6B90 /* StudioFace.swift */,
+				E82B958E14E5D3D0172E9117 /* StudioInk.swift */,
+			);
+			path = Spine;
+			sourceTree = "<group>";
+		};
+		93638C662155F0F0E4822151 /* MargentTests */ = {
+			isa = PBXGroup;
+			children = (
+				69F59E0BA0C64E635F7D2CC4 /* ContactHopTests.swift */,
+				DA442D569C0EE6B763B943FF /* MargentTests.swift */,
+				21DA50E542DB9CB0A054F86A /* ReviewLaunchTests.swift */,
+				05556594EB33AFC7EEE062A4 /* SheafStoreTests.swift */,
+				1B6D24F016277ACF8E8D9676 /* SheafWatchTests.swift */,
+				8097CC8609445445D2AAABE5 /* VolumeTests.swift */,
+			);
+			path = MargentTests;
+			sourceTree = "<group>";
+		};
+		9C478363C303BB5092958F75 /* Margent */ = {
+			isa = PBXGroup;
+			children = (
+				4ACE00CB049FF9583546A3A7 /* APIConfig.swift */,
+				6C9F5373802E7141470782AA /* AppDelegate.swift */,
+				1622277D1F57D862104048B7 /* Assets.xcassets */,
+				F8F5C1A03D6377124ECDD96C /* ContentView.swift */,
+				9ED9B5A2A387C1914E135484 /* MargentApp.swift */,
+				BD458EBC924C35D56A3ECC62 /* Hollow */,
+				F829D1D1C71BBC3E378F861D /* Sheaf */,
+				EBACD138CDD4EEF71421198F /* Slip */,
+				3080CEF027EDB35FA94795DA /* Spine */,
+				FD5895F618BBA3511FFC8AB2 /* Volume */,
+			);
+			path = Margent;
+			sourceTree = "<group>";
+		};
+		A5700978AE13CCBAD2391AE3 = {
+			isa = PBXGroup;
+			children = (
+				9C478363C303BB5092958F75 /* Margent */,
+				93638C662155F0F0E4822151 /* MargentTests */,
+				C8EC54FC63F3E43CFC9BBCF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD458EBC924C35D56A3ECC62 /* Hollow */ = {
+			isa = PBXGroup;
+			children = (
+				68D779AEDD0288A43B1291AC /* ContactHop.swift */,
+				7A332504B49EB3A459C117E9 /* Hollow.swift */,
+				D46FA26BBA1C64604F94B4D6 /* HollowPane.swift */,
+				5F086B7B275003A41605A0E1 /* SettingsPane.swift */,
+			);
+			path = Hollow;
+			sourceTree = "<group>";
+		};
+		C8EC54FC63F3E43CFC9BBCF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E02E9AB31B977010CC2C10 /* Margent.app */,
+				5A4120B89337117BB8D3FDB4 /* MargentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBACD138CDD4EEF71421198F /* Slip */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA9A50D62BE5BDFFB08F9A /* DayStamp.swift */,
+				429BD163233DA8C92C2C6FEE /* MarginSheet.swift */,
+				3318481474AF6F630C1F2827 /* QuotesPane.swift */,
+				F5BAFA61963ABC0B29FBDED1 /* SetDownSheet.swift */,
+				179E7EA31B2DC087E817231F /* Slip.swift */,
+			);
+			path = Slip;
+			sourceTree = "<group>";
+		};
+		F829D1D1C71BBC3E378F861D /* Sheaf */ = {
+			isa = PBXGroup;
+			children = (
+				29F9EE43FCA593ABB2D02C4A /* Sheaf.swift */,
+				C0D47571007F0FF7486C126F /* SheafDocument.swift */,
+				8E93681604766C00281A4699 /* SheafStore.swift */,
+				186667611116C0A4995218C2 /* SheafWatch.swift */,
+			);
+			path = Sheaf;
+			sourceTree = "<group>";
+		};
+		FD5895F618BBA3511FFC8AB2 /* Volume */ = {
+			isa = PBXGroup;
+			children = (
+				37C37AE20EA24517C13126E8 /* DashboardPane.swift */,
+				D7C5299D7C77AD8EC7468AA5 /* Florilegium.swift */,
+				832261B919A075B90C1E652C /* Volume.swift */,
+				5F4E17ED043CD39B7103A3F6 /* VolumeFault.swift */,
+			);
+			path = Volume;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6294CDFEDC4BAA026B55E798 /* Margent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA0E480ED5693B15E9AB7C5 /* Build configuration list for PBXNativeTarget "Margent" */;
+			buildPhases = (
+				1ED2ACFE2261CB5D137407CC /* Sources */,
+				79F9E8C52BDDEBB91CD273B8 /* Resources */,
+				DC75F765211F7D2BE49D9905 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Margent;
+			packageProductDependencies = (
+				51919CACC7EBCDDAD7B0A332 /* Alamofire */,
+			);
+			productName = Margent;
+			productReference = 32E02E9AB31B977010CC2C10 /* Margent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98031CC00F9F84094AA5D368 /* MargentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA120E17E5A412044FD09F6 /* Build configuration list for PBXNativeTarget "MargentTests" */;
+			buildPhases = (
+				75A189451D48FF3767FB9D01 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B521CE846F409122A8AB9880 /* PBXTargetDependency */,
+			);
+			name = MargentTests;
+			packageProductDependencies = (
+			);
+			productName = MargentTests;
+			productReference = 5A4120B89337117BB8D3FDB4 /* MargentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C01388EEC3C51B5E579268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6294CDFEDC4BAA026B55E798 = {
+						ProvisioningStyle = Automatic;
+					};
+					98031CC00F9F84094AA5D368 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1B1AA3726B5D0A7893DE9DC /* Build configuration list for PBXProject "Margent" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A5700978AE13CCBAD2391AE3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A13CCC300313AE10F85BA689 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C8EC54FC63F3E43CFC9BBCF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6294CDFEDC4BAA026B55E798 /* Margent */,
+				98031CC00F9F84094AA5D368 /* MargentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F9E8C52BDDEBB91CD273B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261E117E4AAB93B001F9A883 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED2ACFE2261CB5D137407CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B02D0914ECAEB911FE0A9C4 /* APIConfig.swift in Sources */,
+				84E82C132F7BEFF3E9D27ABB /* AppDelegate.swift in Sources */,
+				D7ADDB85998B176441C4E1AC /* ClaySpine.swift in Sources */,
+				B83DC50905AD25C01B9621CA /* ContactHop.swift in Sources */,
+				9334AD786E24CB6F19B1D4EC /* ContentView.swift in Sources */,
+				59685E9C77C440380F4444B1 /* DashboardPane.swift in Sources */,
+				BF266EEC416BF4F2420E1331 /* DayStamp.swift in Sources */,
+				53F2837636E48D24A82D3FFB /* Florilegium.swift in Sources */,
+				28A5E095DF63B3AD3DFF4A18 /* Hollow.swift in Sources */,
+				7E4AF039B69CEC1DF51F815A /* HollowPane.swift in Sources */,
+				03362659983D6203204F9A45 /* MargentApp.swift in Sources */,
+				BD4B7EF9680D3F8DFE143EEA /* MarginSheet.swift in Sources */,
+				1E10ED00A7764C9CFF9C4E64 /* OnboardingPane.swift in Sources */,
+				234BF3F25925415C204E9E04 /* QuotesPane.swift in Sources */,
+				186478628B4E2E99DCCA8059 /* ReviewLaunch.swift in Sources */,
+				390C6CDF75E91B250BB5AB1C /* SetDownSheet.swift in Sources */,
+				E090B34719247ABD57ACA3D7 /* SettingsPane.swift in Sources */,
+				D58E96E7039248E135196E61 /* Sheaf.swift in Sources */,
+				667D7199865D48D06459B35C /* SheafDocument.swift in Sources */,
+				DA5F4A0269966C618BB7C64D /* SheafSeed.swift in Sources */,
+				9634551CBC85403A80696817 /* SheafStore.swift in Sources */,
+				5D3264A90A7AFB05EC9825F2 /* SheafWatch.swift in Sources */,
+				CB74E2E9F730A92EB6F9B92C /* ShelfPane.swift in Sources */,
+				9FC35A6E284F6A52E38B5836 /* Slip.swift in Sources */,
+				F148FBC7BBF68B659312726B /* Spine.swift in Sources */,
+				2AC3AAAFF1936D15BF3B84CD /* SpineChrome.swift in Sources */,
+				030141F2D20F7B83458C1921 /* StudioFace.swift in Sources */,
+				AA6EB5216184F136DE095D82 /* StudioInk.swift in Sources */,
+				8DBB75A6513B7C4828F733FA /* Volume.swift in Sources */,
+				88C60F9436AD3388D04BD94E /* VolumeFault.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A189451D48FF3767FB9D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F669D2B7D45677910468434 /* ContactHopTests.swift in Sources */,
+				D6211AB4320A483F5ED8218C /* MargentTests.swift in Sources */,
+				83927B7A5A8E318478F4658E /* ReviewLaunchTests.swift in Sources */,
+				FF3B5E66F2C07389CFBDC3BE /* SheafStoreTests.swift in Sources */,
+				E97B61F056BF30F6A271E0EB /* SheafWatchTests.swift in Sources */,
+				6315508121B2BF7DBBC9D8C2 /* VolumeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B521CE846F409122A8AB9880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6294CDFEDC4BAA026B55E798 /* Margent */;
+			targetProxy = 998BB2ED9499BFD549E92BE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26FAE21014B375AC807523C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margent.sheaf.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Margent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Margent";
+			};
+			name = Release;
+		};
+		67D60CE992C349AB9D001905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		697ADC7E0D2B40DC74738AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		C4DB7417F013FDE60CF7D808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Margent;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = mgt_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.margent.sheaf;
+				PRODUCT_NAME = Margent;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E26B885BE12BFF927014938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margent.sheaf.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Margent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Margent";
+			};
+			name = Debug;
+		};
+		F7BB9C767B46D6FB79411267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Margent;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = mgt_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.margent.sheaf;
+				PRODUCT_NAME = Margent;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA0E480ED5693B15E9AB7C5 /* Build configuration list for PBXNativeTarget "Margent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BB9C767B46D6FB79411267 /* Debug */,
+				C4DB7417F013FDE60CF7D808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FA120E17E5A412044FD09F6 /* Build configuration list for PBXNativeTarget "MargentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26B885BE12BFF927014938C /* Debug */,
+				26FAE21014B375AC807523C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1B1AA3726B5D0A7893DE9DC /* Build configuration list for PBXProject "Margent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				697ADC7E0D2B40DC74738AE8 /* Debug */,
+				67D60CE992C349AB9D001905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A13CCC300313AE10F85BA689 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51919CACC7EBCDDAD7B0A332 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13CCC300313AE10F85BA689 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C0C01388EEC3C51B5E579268 /* Project object */;
+}
