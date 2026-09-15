@@ -1,15 +1,43 @@
-The Info.plist includes NSCameraUsageDescription with the exact string "This app does not use the camera." The app never requests camera access and never shows a camera permission dialog. No photo library, microphone, location, or tracking usage strings are present.
+Hi — thanks for looking at this. Margent is ready for review. I tested the submitted build on a physical iPhone on the latest iOS before sending it. There is nothing to log into, nothing to buy, and no public posts, so the recording is just the normal reading flow from a cold launch.
 
-There is no login, no in-app purchase, no user-generated content shared with others, no account deletion flow, and no App Tracking Transparency prompt.
+1. Screen recording
 
-Margent is a commonplace book for readers who write a slip at the page they are reading. It is for people who lose marginalia in highlights they never reopen. A volume starts Held; marking it gone hollows the spine and freezes the sheaf so slips stay searchable on this device.
+I attached a recording from a physical iPhone on the latest iOS. It starts at launch and walks the usual path:
 
-No credentials or demo account are needed. On a cold launch the reviewer sees four onboarding pages titled "Set down the book you are holding", "Write a slip at this page", "The book can leave. The slips stay.", and "Reread is a verdict." Tap Next through them or Skip, then Open the shelf. On an empty Shelf tap Set down a book, enter a Title and Page count, and tap Set down on the shelf. Tap Write a slip or a held spine to open the margin. Set the page with the slider, type a line, and tap Pin this slip. Tap Mark this book gone, confirm on Hollow spine, then reread the frozen sheaf and toggle Reread or Not yet. Open the Quotes tab to Search your slips and set the same verdict. Open the Dashboard tab for gone sheaves, reread slips, hollow spines, and latest slips. Tap the gear for Settings, including Re-run onboarding, Reset all data, and Contact Margent.
+Cold launch → four onboarding pages: “Set down the book you are holding”, “Write a slip at this page”, “The book can leave. The slips stay.”, and “Reread is a verdict.” Tap Next through them (or Skip), then Open the shelf.
 
-The only user-initiated network action is Contact Margent, which opens https://margent-sheaf.pro/contact-us. The product has no remote catalog and does not fetch slips from the network. Books, slips, reread verdicts, and onboarding state stay on this device in UserDefaults and Application Support.
+On Shelf, if it is empty you see “The shelf is empty” and tap Set down a book. Enter a Title and Page count, then Set down on the shelf. Tap Write a slip (or a held spine). Set the page with the slider, type a line in “Write the slip at this page”, and tap Pin this slip.
 
-Behaviour does not differ by region. Page numbers and counts use the device locale formatter. Day stamps use the device calendar.
+Tap Mark this book gone, confirm on Hollow spine, then reread the frozen sheaf and toggle Reread or Not yet. Open Quotes to Search your slips and use the same verdict. Open Dashboard for gone sheaves, reread slips, hollow spines, and latest slips. Tap the gear for Settings — Re-run onboarding, Reset all data, and Contact Margent.
 
-No licence or regulated-industry paperwork applies. The app stores personal reading notes and is not a medical, legal, or financial product.
+There is no account, so there is no registration, login, or account deletion. Notes stay on this device and are never shared with other users, so there is no report or block flow. There are no paid features.
 
-The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.
+2. Purpose and audience
+
+Margent is a commonplace book for people who actually read and then lose the line they meant to keep. Highlights pile up and never get opened again. Here you set down the book you are holding, pin a slip to the page you are on, and keep going. When the copy is returned, sold, given, or lost, you mark it gone — the spine hollows, the sheaf freezes, and the slips stay searchable on this device. Reread is a yes or no, not a star rating. It is for readers, not a bookstore and not a social network.
+
+3. How to try the main features
+
+No login and no demo account. No sample files.
+
+Launch the app. Tap Next through onboarding, or Skip, then Open the shelf.
+Set down a book (any title and page count is fine — I used a paperback I had on the desk).
+Tap Write a slip, move the page, type a line, Pin this slip.
+Open Quotes if you want to search what you wrote.
+Mark this book gone when you are done with that copy, then open the hollow spine to reread.
+Dashboard just counts what you already did.
+Settings → Contact Margent opens the support page if you need us.
+
+Reset all data in Settings if you want a clean shelf again.
+
+4. External services
+
+The reading work itself is on the device. Books, slips, and reread verdicts do not come from a catalog or a cloud account. The only thing a person taps that leaves the app is Contact Margent, which opens our support page (https://margent-sheaf.pro/contact-us). No sign-in service, no payments, no AI.
+
+5. Regions
+
+Same app everywhere. No country-specific features or content. Page numbers and counts follow the device’s number format; day stamps follow the device calendar. Copy is English.
+
+6. Regulated industry / third-party material
+
+Not applicable. This is a personal reading notebook. We are not in a licensed industry and we do not ship anyone else’s protected catalog or media. What you type is yours and stays on this device.
